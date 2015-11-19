@@ -1,0 +1,128 @@
+***CRAZY SCIENTIST V2***
+
+...........................................Thread #0 execution time: 22.72 sec
+Thread #1 execution time: 69.04 sec
+Elapsed time: 69.04 seconds
+Load Imbalance: 46.32 seconds
+
+...........................................Thread #0 execution time: 26.20 sec
+Thread #1 execution time: 78.26 sec
+Elapsed time: 78.26 seconds
+Load Imbalance: 52.06 seconds
+
+...........................................Thread #0 execution time: 20.94 sec
+Thread #1 execution time: 67.61 sec
+Elapsed time: 67.61 seconds
+Load Imbalance: 46.68 seconds
+
+...........................................Thread #0 execution time: 20.90 sec
+Thread #1 execution time: 69.85 sec
+Elapsed time: 69.85 seconds
+Load Imbalance: 48.95 seconds
+
+...........................................Thread #0 execution time: 21.20 sec
+Thread #1 execution time: 75.39 sec
+Elapsed time: 75.39 seconds
+Load Imbalance: 54.18 seconds
+
+...........................................Thread #0 execution time: 21.37 sec
+Thread #1 execution time: 65.33 sec
+Elapsed time: 65.33 seconds
+Load Imbalance: 43.97 seconds
+
+...........................................Thread #0 execution time: 21.35 sec
+Thread #1 execution time: 72.99 sec
+Elapsed time: 72.99 seconds
+Load Imbalance: 51.64 seconds
+
+...........................................Thread #0 execution time: 22.88 sec
+Thread #1 execution time: 72.26 sec
+Elapsed time: 72.26 seconds
+Load Imbalance: 49.39 seconds
+
+...........................................Thread #0 execution time: 20.95 sec
+Thread #1 execution time: 71.69 sec
+Elapsed time: 71.69 seconds
+Load Imbalance: 50.74 seconds
+
+...........................................Thread #0 execution time: 20.84 sec
+Thread #1 execution time: 65.34 sec
+Elapsed time: 65.34 seconds
+Load Imbalance: 44.50 seconds
+
+AVERAGE TOTAL EXECUTION TIME: 70.776 SECS
+AVERAGE TOTAL IMBALANCE TIME: 48.843 SECS
+
+
+***CRAZY SCIENTIST V3***
+
+...........................................Thread #0 Elapsed time: 14.17 seconds
+Thread #1 Elapsed time: 74.41 seconds
+Elapsed time: 74.41 seconds
+Load Imbalance: 60.25 seconds
+
+...........................................Thread #0 Elapsed time: 14.82 seconds
+Thread #1 Elapsed time: 74.51 seconds
+Elapsed time: 74.51 seconds
+Load Imbalance: 59.68 seconds
+
+...........................................Thread #0 Elapsed time: 14.41 seconds
+Thread #1 Elapsed time: 69.18 seconds
+Elapsed time: 69.18 seconds
+Load Imbalance: 54.77 seconds
+
+...........................................Thread #0 Elapsed time: 12.75 seconds
+Thread #1 Elapsed time: 69.15 seconds
+Elapsed time: 69.15 seconds
+Load Imbalance: 56.40 seconds
+
+
+...........................................Thread #0 Elapsed time: 14.74 seconds
+Thread #1 Elapsed time: 75.65 seconds
+Elapsed time: 75.65 seconds
+Load Imbalance: 60.91 seconds
+
+...........................................Thread #0 Elapsed time: 15.90 seconds
+Thread #1 Elapsed time: 75.06 seconds
+Elapsed time: 75.06 seconds
+Load Imbalance: 59.16 seconds
+
+...........................................Thread #0 Elapsed time: 15.19 seconds
+Thread #1 Elapsed time: 74.31 seconds
+Elapsed time: 74.31 seconds
+Load Imbalance: 59.12 seconds
+
+...........................................Thread #0 Elapsed time: 12.16 seconds
+Thread #1 Elapsed time: 68.55 seconds
+Elapsed time: 68.55 seconds
+Load Imbalance: 56.39 seconds
+
+...........................................Thread #0 Elapsed time: 14.85 seconds
+Thread #1 Elapsed time: 73.60 seconds
+Elapsed time: 73.60 seconds
+Load Imbalance: 58.75 seconds
+
+...........................................Thread #0 Elapsed time: 12.01 seconds
+Thread #1 Elapsed time: 63.17 seconds
+Elapsed time: 63.17 seconds
+Load Imbalance: 51.16 seconds
+
+
+
+V2:
+AVERAGE TOTAL EXECUTION TIME: 70.776 SECS
+AVERAGE TOTAL IMBALANCE TIME: 48.843 SECS
+
+V3:
+AVERAGE TOTAL EXECUTION TIME: 71.759 SECS
+AVERAGE TOTAL IMBALANCE TIME: 57.659 SECS
+
+as for the total execution time we see little change in time, but actually we can see a big difference when it comes to load imbalance between the 2 versions, there is more load imbalance in V3 this is probably because of the switching and telling each thread to get something new everytime it finishes
+
+as for the times, i feel that i am calculating them wrong, but if in the case they are correct, i feel that it is so high because i am running off Ubuntu on a VM and that my computer is around 5 years old.
+
+
+
+
+
+
